@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# Food Delivery App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+This is a React Native food delivery application built with Expo and Expo Router. It provides a seamless experience for users to browse restaurants, view menus, place orders, and manage their cart.
 
-1. Install dependencies
+## Features
+
+- User authentication (login/logout)
+- Browse restaurants
+- View restaurant menus
+- Add items to cart
+- Manage cart (add/remove items, adjust quantities)
+
+## Tech Stack
+
+- **React Native**: For building the mobile application
+- **Expo**: For faster development and deployment
+- **Expo Router**: For navigation and file-based routing
+- **Formik** and **Yup**: For form handling and validation
+- **Context API**: For state management across the app
+- **AsyncStorage**: For local data persistence
+- **TypeScript**: For type-safe development
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (v20 or later)
+- npm or yarn
+- Expo CLI (`npm install -g expo-cli`)
+- A smartphone or emulator (iOS or Android)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AbhishekRavula/food-delivery.git
+   cd food-delivery
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+   or
 
    ```bash
-    npx expo start
+   yarn install
    ```
 
-In the output, you'll find options to open the app in a
+3. Start the development server:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   expo start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. Open the app on your device:
+   - Scan the QR code from the Expo CLI in your terminal using the Expo Go app on your phone.
+   - Or, use an emulator (Android Studio or Xcode).
 
-## Get a fresh project
+## APK Download
 
-When you're ready, run:
+You can download the APK file for this project using the following link:
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[Download APK](https://drive.google.com/file/d/1qoZgLw3ApIsvCu6LympIjp89myVhf8rn/view?usp=sharing)
